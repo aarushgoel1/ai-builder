@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "aiworldedit",
+  "version": "${version}",
+  "name": "AI WorldEdit Builder",
+  "description": "Describe a build in chat and an LLM generates WorldEdit commands that run live in your world.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.aiworldedit.AiWorldEditClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "worldedit": "*"
+  }
+}
